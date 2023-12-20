@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConCiencia Digital</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo 2', cursive;
+            background-color: #E0E7FF;
+           
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .card-body {
+            font-family: 'Baloo 2', cursive;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        h2, h3, h4 {
+            color: #4a90e2;  /* Color azul suave */
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 10px;
+            line-height: 1.6;
+            color: #666;  /* Gris suave */
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        ul li {
+            margin-top: 5px;
+        }
+
+        i {
+            margin-right: 10px;
+            color: #e94e77;  /* Color rosado */
+        }
+
+        .card {
+            border-radius: 20px;
+            overflow: hidden;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Efecto de "zoom" al pasar el ratón */
+        }
+
+        .btn-primary {
+            background-color: #98C1D9;
+            border: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #EE6C4D;
+        }
+
+        /* Añadimos estilos para íconos (puedes usar una biblioteca como Font Awesome) */
+        .icon {
+            font-size: 30px;
+            color: #3D5A80;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">SGR - Secuencias Didácticas</h2>
+    
+    <div class="card mb-4">
+        
+        <div class="card-body">
+
+            <!-- Título Principal -->
+            <h2><i class="fas fa-chalkboard-teacher"></i> Paso a paso: Secuencia Didáctica</h2>
+    
+            
+            <!-- Información básica -->
+            <h3><i class="fas fa-info-circle"></i> Destinado a:</h3>
+            <p><strong>Básica primaria:</strong> 1.° a 3.° año - Nivel básico intermedio de lectura y escritura</p>
+
+            <!-- Objetivos -->
+            <h3><i class="fas fa-bullseye"></i> Objetivos de Aprendizaje</h3>
+            <ul>
+                <li><strong>General:</strong> Fomentar la cultura y mentalidad en ciencia, tecnología e innovación para niños de 5 a 10 años.</li>
+                <li><strong>Específico:</strong> Adentrar a los estudiantes en biología, enseñándoles sobre el origen de la vida, especialmente las flores y la evolución de las plantas.</li>
+            </ul>
+            
+            <!-- Introducción -->
+            <h3><i class="fas fa-lightbulb"></i> Introducción</h3>
+            <p>Las ciencias naturales nos ayudan a comprender el mundo a nuestro alrededor. Desde entender de dónde viene la vida hasta cómo funciona nuestro entorno. Es una aventura del conocimiento que inicia con la curiosidad por el mundo que nos rodea.</p>
+        
+            <h4>Aspectos clave de las Ciencias Naturales:</h4>
+            <ul>
+                <li><strong>Entorno vivo:</strong> Nos permite entender la vida, los seres vivos y sus interacciones.</li>
+                <li><strong>Entorno físico:</strong> Explica los lugares donde viven los organismos y cómo interactúan con su entorno.</li>
+                <li><strong>Relación Ciencia, Tecnología y Sociedad (CTS):</strong> Reflexiona sobre cómo la ciencia mejora nuestra vida y las posibles consecuencias de los avances científicos.</li>
+            </ul>
+            
+            <!-- Actividad en el aula -->
+            <h3><i class="fas fa-book-open"></i> Actividad en el Aula</h3>
+            <p>El docente jugará un papel fundamental al alimentar y apoyar la curiosidad natural de los estudiantes, ayudándoles a navegar por estos conceptos y descubrimientos emocionantes.</p>
+        
+            <h4>Disposición para el aprendizaje:</h4>
+            <p>Desde el primer hasta el tercer año, es vital que los docentes fomenten una actitud positiva hacia el aprendizaje, apoyando y nutriendo la disposición natural de los estudiantes hacia la exploración y el descubrimiento.</p>
+        
+            <h3 class="text-center mb-4">Material base de las secuencias didacticas</h3>
+            <div id="librosCarrusel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="https://github.com/ChristianFlor/sgr-app/blob/main/secuencias%20didacticas/biologia.pdf" target="_blank">
+                                    <img src="img/biologia_caratula.png" alt="Libro 1" class="img-fluid">
+                                    <p>Biologia</p>
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://github.com/ChristianFlor/sgr-app/blob/main/secuencias%20didacticas/fisica.pdf" target="_blank">
+                                    <img src="img/fisica_caratula.png" alt="Libro 2" class="img-fluid">
+                                    <p>Fisica</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://github.com/ChristianFlor/sgr-app/blob/main/secuencias%20didacticas/libro_ninos_preguntas_2020.pdf" target="_blank">
+                                    <img src="img/libros_caratula.png" alt="Libro 3" class="img-fluid">
+                                    <p>Libros</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://github.com/ChristianFlor/sgr-app/blob/main/secuencias%20didacticas/quimica.pdf" target="_blank">
+                                    <img src="img/quimica_caratula.png" alt="Libro 4" class="img-fluid">
+                                    <p>Quimica</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Puedes agregar más "carousel-item" para más libros en grupos de 4 -->
+            
+                </div>
+                <a class="carousel-control-prev" href="#librosCarrusel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#librosCarrusel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    <h2 class="text-center"><span class="icon">&#x1F52C;</span> ¡Hablemos de Ciencia con ChatGPT!</h2>
+    <p class="text-center">Completa estas preguntas y obtén respuestas asombrosas.</p>
+    <div class="card mt-4" style="background-color: #FFDDCC;">
+        <div class="card-body">
+            <h3 class="text-center mb-4" style="color: #FF6699; font-size: 24px;">¡Vamos a escribir!</h3>
+            
+            <form id="gptForm">
+    
+                <!-- Tema -->
+                <div class="form-group">
+                    <label for="tema">¿De cuál de los temas que vimos en clase te gustaria hablar? 🌎</label>
+                    <textarea class="form-control" id="tema" name="tema" rows="2" style="font-size: 18px;"></textarea>
+                </div>
+    
+                <!-- Idea central -->
+                <div class="form-group">
+                    <label for="ideaCentral">¿Y qué les quieres decir a tus compañeros acerca de ese tema? 🧑👩</label>
+                    <textarea class="form-control" id="ideaCentral" name="ideaCentral" rows="2" style="font-size: 18px;"></textarea>
+                </div>
+    
+                <div class="form-group text-center">
+                    <button type="button" class="btn btn-primary" style="font-size: 20px; padding: 10px 20px; border-radius: 12px;" id="generateButton">¡Crear historia!</button>
+                </div>
+            </form>
+    
+            <div class="card mt-4" style="background-color: #FFEECC;">
+                <div class="card-body">
+                    <h4 class="text-center mb-4" style="color: #FF9966; font-size: 22px;">Mira tu historia</h4>
+                    <p id="gptResult" style="font-size: 18px;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
